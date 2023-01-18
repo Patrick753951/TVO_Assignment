@@ -1,0 +1,22 @@
+[{
+    "email": "2970539385@qq.com",
+    "select": false,
+    "valid": true,
+    "assert": "Please Select at least one checkbox",
+    "log": "subscribe with already exist email and not seleccted"
+},
+{
+    "email": "2970539385@",
+    "select": true,
+    "valid": false,
+    "assert": "Please enter a valid email address.",
+    "log": "subscribe with incorrect exist email"
+},
+{
+    "email": "2970539385wqc@qq.com",
+    "select": false,
+    "valid": true,
+    "assert": "Please Select at least one checkbox",
+    "log": "subscribe with not exist email"
+}
+]

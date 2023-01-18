@@ -1,0 +1,13 @@
+[{
+    "email": "2970539385@qq.com",
+    "valid": true,
+    "assert": "has too many recent signup requests",
+    "log": "subscribe with already exist email and not seleccted"
+},
+{
+    "email": "2970539385@",
+    "valid": false,
+    "assert": "error",
+    "log": "subscribe with incorrect exist email"
+}
+]

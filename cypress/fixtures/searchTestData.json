@@ -1,0 +1,13 @@
+[{
+    "input": "canada",
+    "assert": "Showing",
+    "log": "eaarch with correct input",
+    "api_assert_greatThan_0": true
+},
+{
+    "input": "@@@",
+    "assert": "Sorry, no results were found",
+    "log": "eaarch with incorrect input",
+    "api_assert_greatThan_0": false
+}
+]
